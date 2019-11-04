@@ -1,0 +1,218 @@
+body{
+  margin:0 ;
+  padding:0;
+  background-color: #f2f2f2;
+}
+
+.loginbox{
+    width: 700px;
+    height: 585px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    box-sizing:border-box;
+    padding: 20px 30px;
+    background-color: #fff;
+    transform: translate(-50%,-50%);
+    border: 2px solid rgb(235, 233, 233);
+    border-radius: 2em;
+    text-align:left;
+    box-shadow: 0px 0px 5px 0px #d3eaf1;
+    
+    
+}
+
+
+div h1{
+  position: relative;
+  margin:25px 40px 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 43px;
+  font-weight: 800;
+  
+}
+
+div h1::after{
+content: "";
+display: block;
+position: absolute;
+top:75px;
+left:0px;
+right:0;
+width: 85px;
+border-bottom:8px solid #17e0a0 ;
+margin-top: -11px;
+}
+
+#pattern{
+
+  position: absolute;
+  float: right;
+  background-image:linear-gradient(#0da8ee,#17e0a0);
+  width:30%;
+  height:445px;
+  right:-2px;
+  top:-2px;
+  padding: 70px ;
+  border-radius:0em 2em 2em 0em;
+ 
+}
+
+div #google  {
+color: #999;
+padding: 9px;
+display: block;
+border-radius: 2em;
+font-size: 12px;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+text-decoration: none;
+transition: all .4s;
+font-weight: bold;
+border: 0px solid #ccc;
+width: 180px;
+margin: -10px 0px 20px 40px;
+transition:.4s;
+box-shadow:0px 0px 1px 0px #ccc, 0px 4px 4px 0px #ccc ;
+}
+
+
+div #googleicon {
+
+  padding-right:7px ;
+  vertical-align: middle;
+  max-width:14px ;
+
+}
+
+#google:hover{
+
+  box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+div #OR{
+
+  display: block;
+  position: relative;
+  left: 100px;
+  color:#999;
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin: -4px 40px 10px 30px;
+
+}
+
+div #OR::before{
+  
+  content: "";
+  display: block;
+  position: absolute;
+  top: 8px;
+  right:0px;
+  left:40px;
+  width: 68px;
+  border-bottom: 2px solid #ddd;
+  
+}
+
+div #OR::after{
+  
+  content: "";
+  display: block;
+  position: absolute;
+  top:8px;
+  left: -100px;
+  right:0px;
+  width: 66px;
+  border-bottom: 2px solid #ddd;
+  
+}
+
+.form {
+
+  display:block ; 
+  margin: -1px 0 5px 20px;
+  padding:9px;
+  font-size: 12px;
+  width: 170px;
+  outline: none;
+  
+
+  
+}
+
+
+.form label{
+
+padding-bottom: 5px;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+color: #888;;
+
+}
+
+#name,#email,#password{
+  background-color:#e9f1f5;
+  border: 1px solid transparent;
+  border-radius: 4em;
+  opacity: 0.5;
+  transition: .4s;
+}
+
+#name:hover,#email:hover,#password:hover,#submit:hover
+{
+  
+  box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+#name:focus,#email:focus,#password:focus,#submit:focus
+{
+  border-color: #0da8ee;
+  background-color: #fff;
+  color:#000;
+  opacity: 1;
+}
+
+#submit{
+  width: 190px;
+  padding: 9px;
+  background-image:linear-gradient(to right,#0da8ee,#17e0a0);
+  margin: 18px 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 4em;
+  transition: .4s;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+#password{
+  font-size: 20px;
+  padding: 5px;
+  width: 175px;
+  
+  
+}
+#account{
+  display: block;
+  color: #888;
+  font-size: 11px;
+  font-family: 'Ropoto', sans-serif;
+  width: 200px;
+  font-weight: bold;
+  margin-left:-1px;
+
+}
+#account a{
+  color: #0da5f2;
+  font-family: 'poppins', sans-serif;
+  font-size: 10px;
+  margin-left:2px;
+  padding: 1px;
+
+  
+}
+
